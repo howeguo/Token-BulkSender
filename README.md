@@ -3,6 +3,9 @@
 
 # Token Multisender
 This DAPP was used to send token or ETH to many addresses in one transaction, and that can help user to save tx fee
+
+![Demo](demo_en.gif)
+
 # Problem:
 Previously in Ethereum Network, additional tools were required in order to transfer many ERC20 tokens at once.
 Many people still do this manually, one transaction at a time. This process is time consuming and prone to an error.
