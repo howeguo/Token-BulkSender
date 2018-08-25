@@ -1,3 +1,6 @@
+# Language:
+[English](https://github.com/howeguo/Token-multisender/edit/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/edit/master/README_中文.md)
+
 # Token-multisender
 This DAPP was used to send token or ETH to many addresses in one transaction, and that can help user to save tx fee
 # Problem:
