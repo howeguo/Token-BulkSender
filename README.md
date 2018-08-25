@@ -1,7 +1,7 @@
 # Language:
 [English](https://github.com/howeguo/Token-multisender/edit/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/README_%E4%B8%AD%E6%96%87.md)
 
-# Token-multisender
+# Token Multisender
 This DAPP was used to send token or ETH to many addresses in one transaction, and that can help user to save tx fee
 # Problem:
 Previously in Ethereum Network, additional tools were required in order to transfer many ERC20 tokens at once.
