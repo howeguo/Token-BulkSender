@@ -2,7 +2,7 @@
 [English](https://github.com/howeguo/Token-multisender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/README_%E4%B8%AD%E6%96%87.md)
 
 # Token Multisender
-这个应用可用来批量发送以太币和ERC20的代币，通过批量交易，可以节省很多交易费。
+这个应用可用来批量发送以太币和ERC20的代币，通过在一个交易中实现批量发送，可以节省很多不必要的交易费。
 
 # Demo
 ![Demo](demo_en.gif)
