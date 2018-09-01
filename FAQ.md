@@ -20,7 +20,7 @@ The default number is 130, the max number is 200. This depends on the gas limit 
 ## What's the tx fee of one transaction?
 The default tx fee is 0.01ETH, But we have VIP membership, you just need to pay 1 ETH to be a VIP, the tx fee will be zero forever for your account.
 
-## Your smart contract is opensource?
+## Is your smart contract open source?
 Sure, you can check them by the following link.
 Mainnet: https://etherscan.io/address/0xaab60b6cb2b0d9f0c7f0bfb7ffb727d2583f5e57#code  
 Ropsten: https://ropsten.etherscan.io/address/0x209ad7c282294e50bc51f499cc85c1c90386aa0f#code 
