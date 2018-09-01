@@ -1,6 +1,6 @@
 # Token Multisender FAQ
 
-Here, we've got a variety of guides for people interested in Token Multisender. Go ahead and check out the one that interests you:
+Here, I am very grateful to you for your interest in our DAPP. Here are some common questions that I hope will help you:
 
 # FAQ's
 
