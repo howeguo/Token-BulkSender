@@ -5,11 +5,11 @@ Here, we've got a variety of guides for people interested in Token Multisender. 
 # FAQ's
 
 ## Why need I do the approval option?
-The approval option just grant permission for smart contract to spend up some amount, it will not transfer tokens to smart contract, as it's not safe.It's only avalible when you actually send a token transfer, so you don't worry about it, just do it.
+Because it's a safe way, you don't need to transfer tokens to our smart contract directly, and the approval option just grant permission for smart contract to spend up some amount, it's only avalible when you actually send a token transfer by our contract, so you don't worry about it, just do it.
 [ERC20_Token_Standard#Approve](https://theethereum.wiki/w/index.php/ERC20_Token_Standard#Approve_And_TransferFrom_Token_Balance)
 
 ## Need I do the approval option every time?
-No, you don't have to, In my suggestion is that you can approve a large amount to smart contract in one time.
+No, you don't have to, in my suggestion， you can approve a large amount to smart contract in one time, that you can save some time and tx fees.
 
 ## Why is my token list not showing?
 You must make sure you have install MetaMask(https://metamask.io) and unlock the right account.
