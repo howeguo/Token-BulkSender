@@ -12,7 +12,7 @@ Because it's a safe way, you don't need to transfer tokens to our smart contract
 [About ERC20 Token Standard#Approve](https://theethereum.wiki/w/index.php/ERC20_Token_Standard#Approve_And_TransferFrom_Token_Balance)
 
 ## Do I need to do the approval option every time?
-No, you don't have to, in my suggestion， you can approve a large amount to smart contract in one time, that you can save some time and tx fees.
+No, you don't have to, in my suggestion, you can approve a large amount to smart contract in one time, that you can save some time and tx fees.
 
 ## Why is my token list not showing?
 You must make sure you have install MetaMask(https://metamask.io) and unlock the right account.
