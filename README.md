@@ -1,7 +1,7 @@
 # Language:
 [English](https://github.com/howeguo/Token-multisender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/README_%E4%B8%AD%E6%96%87.md)
 
-# Token Multisender
+# Token MultiSender
 This DAPP was used to send token or ETH to many addresses in one transaction, and that can help user to save tx fee
 
 # Demo
@@ -28,7 +28,7 @@ This Dapp allows a user to send thousands of token transfers in a very effecient
 11. Once the approve transaction is complete, click Next, go to the Send List, click Send, MetaMask will automatically generate a transaction for your token (130 addresses per transaction).
 12. Done!
 
-You can test this tool on any test network, if you want to make sure that
+You can test this tool on Ropsten test network, if you want to make sure that
 everything will work as expected.
 
 ```
