@@ -26,8 +26,8 @@ The default tx fee is 0.01ETH, But we have VIP membership, you just need to pay 
 ## Is your smart contract open source?
 Sure, you can check them by the following link.
 
-Mainnet: https://etherscan.io/address/0xaab60b6cb2b0d9f0c7f0bfb7ffb727d2583f5e57#code  
-Ropsten: https://ropsten.etherscan.io/address/0x209ad7c282294e50bc51f499cc85c1c90386aa0f#code 
+Mainnet: https://etherscan.io/address/0x66103e7f6512c2c2ee7fc160830883ff67dadfde#code  
+Ropsten: https://ropsten.etherscan.io/address/0xa2ab70491754e0e918e41f5e91ccca19df79ea06#code
 
 
 
