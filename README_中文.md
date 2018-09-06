@@ -40,11 +40,11 @@ https://ropsten.etherscan.io/tx/0x1c7ba7e088dc3670cc24b100df9e67284f5d978560c3c6
 # 合约部署和源码
 合约部署:  
 Mainnet, ropsten  
-Mainnet: 0xc67cdb31060869542ebed211f9ae9d4829e697c0  
+Mainnet: 0x66103e7f6512c2c2ee7fc160830883ff67dadfde  
 Ropsten: 0xa2ab70491754e0e918e41f5e91ccca19df79ea06  
 
 源码:  
-Mainnet: https://etherscan.io/address/0xc67cdb31060869542ebed211f9ae9d4829e697c0#code  
+Mainnet: https://etherscan.io/address/0x66103e7f6512c2c2ee7fc160830883ff67dadfde#code  
 Ropsten: https://ropsten.etherscan.io/address/0xa2ab70491754e0e918e41f5e91ccca19df79ea06#code 
 
 
