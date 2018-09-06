@@ -25,7 +25,7 @@ This Dapp allows a user to send thousands of token transfers in a very effecient
 8. Provide either EXCEL or CSV or TXT file with addresses and values.
 9. Click next.
 10. You need to approve a enough amount to our contract.
-11. Once the approve transaction is complete, click Next, go to the Send List, click Send, MetaMask will automatically generate a transaction for your token (150 addresses per transaction).
+11. Once the approve transaction is complete, click Next, go to the Send List, click Send, MetaMask will automatically generate a transaction for your token (130 addresses per transaction).
 12. Done!
 
 You can test this tool on Ropsten test network, if you want to make sure that
