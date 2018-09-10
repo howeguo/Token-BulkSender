@@ -25,8 +25,8 @@
 ## 智能合约是开源的吗?
 当然, 你可以从以下链接中找到我们的源码。
 
-主网: https://etherscan.io/address/0x66103e7f6512c2c2ee7fc160830883ff67dadfde#code  
-测试网络: https://ropsten.etherscan.io/address/0xa2ab70491754e0e918e41f5e91ccca19df79ea06#code 
+Mainnet: https://etherscan.io/address/0x2f6321db2461f68676f42f396330a4dc4a8f49df#code  
+Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b#code
 
 
 
