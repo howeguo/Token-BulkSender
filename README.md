@@ -33,18 +33,18 @@ everything will work as expected.
 
 ```
 Proof of work:
-https://ropsten.etherscan.io/tx/0x1c7ba7e088dc3670cc24b100df9e67284f5d978560c3c6d5cd1fb0953d391f71
+https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6bc667659505e3a4de2
 ```
 
 # Contract deployed and Source Code
 Contracts deployed:  
 Mainnet, ropsten  
-Mainnet: 0x66103e7f6512c2c2ee7fc160830883ff67dadfde  
-Ropsten: 0xa2ab70491754e0e918e41f5e91ccca19df79ea06  
+Mainnet: 0x2f6321db2461f68676f42f396330a4dc4a8f49df  
+Ropsten: 0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b  
 
 Source Code:  
-Mainnet: https://etherscan.io/address/0x66103e7f6512c2c2ee7fc160830883ff67dadfde#code  
-Ropsten: https://ropsten.etherscan.io/address/0xa2ab70491754e0e918e41f5e91ccca19df79ea06#code 
+Mainnet: https://etherscan.io/address/0x2f6321db2461f68676f42f396330a4dc4a8f49df#code  
+Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b#code 
 
 
 # Disclaimer
