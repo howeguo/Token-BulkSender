@@ -18,7 +18,7 @@ No, you don't have to, in my suggestion, you can approve a large amount to smart
 You must make sure you have install MetaMask(https://metamask.io) and unlock the right account.
 
 ## What's the max address number of one transaction?
-The default number is 130, the max number is 200. This depends on the gas limit of Ethereum. If it is too large, the transaction may fail. 130 is the number we have tested with a high success rate.
+The default number is 200, the max number is 245. This depends on the gas limit of Ethereum. If it is too large, the transaction may fail. 200 is the number we have tested with a high success rate. If you still often fail, try to reduce this number.
 
 ## What's the tx fee of one transaction?
 The default tx fee is 0.01ETH, But we have VIP membership, you just need to pay 1 ETH to be a VIP, the tx fee will be zero forever for your account.
