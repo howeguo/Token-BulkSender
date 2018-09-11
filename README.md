@@ -33,8 +33,9 @@ everything will work as expected.
 
 ```
 Proof of work:
-![https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d
-](https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d)
+
+https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d
+
 ```
 
 # Contract deployed and Source Code
