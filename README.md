@@ -12,7 +12,7 @@ Previously in Ethereum Network, additional tools were required in order to trans
 Many people still do this manually, one transaction at a time. This process is time consuming and prone to an error.
 
 # Solution:
-This Dapp allows a user to send thousands of token transfers in a very effecient way by batching them in groups of 0 - 200 token transfers per Ethereum transaction. This automation saves time by automatically generating transactions to MetaMask. Finally, this tool allows a user to maintain security of their account by delegating the trust of their private keys to a secure MetaMask wallet.
+This Dapp allows a user to send thousands of token transfers in a very effecient way by batching them in groups of 0 - 245 token transfers per Ethereum transaction. This automation saves time by automatically generating transactions to MetaMask. Finally, this tool allows a user to maintain security of their account by delegating the trust of their private keys to a secure MetaMask wallet.
 
 # How to use:
 1. Install [Metamask](https://metamask.io).
@@ -25,7 +25,7 @@ This Dapp allows a user to send thousands of token transfers in a very effecient
 8. Provide either EXCEL or CSV or TXT file with addresses and values.
 9. Click next.
 10. You need to approve a enough amount to our contract.
-11. Once the approve transaction is complete, click Next, go to the Send List, click Send, MetaMask will automatically generate a transaction for your token (130 addresses per transaction).
+11. Once the approve transaction is complete, click Next, go to the Send List, click Send, MetaMask will automatically generate a transaction for your token (200 addresses per transaction).
 12. Done!
 
 You can test this tool on Ropsten test network, if you want to make sure that
@@ -33,7 +33,8 @@ everything will work as expected.
 
 ```
 Proof of work:
-https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6bc667659505e3a4de2
+![https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d
+](https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d)
 ```
 
 # Contract deployed and Source Code
