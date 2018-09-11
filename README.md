@@ -33,7 +33,7 @@ everything will work as expected.
 
 ```
 Proof of work:
-https://etherscan.io/tx/0x16aabf8e76f67e912eccb64c5a9d7de044109486f687236dae558c6139b2aa1d
+https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6bc667659505e3a4de2
 ```
 
 # Contract deployed and Source Code
