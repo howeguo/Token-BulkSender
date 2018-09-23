@@ -54,4 +54,4 @@ Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4f
 
 您转移到Multisender的任何ERC20代币都将发送到您提供的地址。
 
-我鼓励您在使用Mutlisender Dapp之前评估其安全性。
+我鼓励您在使用MutliSender Dapp之前评估其安全性。
