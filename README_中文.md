@@ -52,6 +52,6 @@ Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4f
 我不能保证任何交易的丢失
 对于MultiSender产生的交易造成的任何损失，我概不负责. 该网站和智能合约已经过全面测试，总有可能发生意外情况，导致以太坊和/或令牌丢失。
 
-您转移到Multisender的任何ERC20代币都将发送到您提供的地址。
+您转移到MultiSender的任何ERC20代币都将发送到您提供的地址。
 
 我鼓励您在使用MutliSender应用之前评估其安全性。
