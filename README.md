@@ -12,7 +12,7 @@ Previously in Ethereum Network, additional tools were required in order to trans
 Many people still do this manually, one transaction at a time. This process is time consuming and prone to an error.
 
 # Solution:
-This Dapp allows a user to send thousands of token transfers in a very effecient way by batching them in groups of 0 - 245 token transfers per Ethereum transaction. This automation saves time by automatically generating transactions to MetaMask. Finally, this tool allows a user to maintain security of their account by delegating the trust of their private keys to a secure MetaMask wallet.
+This DAPP allows a user to send thousands of token transfers in a very effecient way by batching them in groups of 0 - 245 token transfers per Ethereum transaction. This automation saves time by automatically generating transactions to MetaMask. Finally, this tool allows a user to maintain security of their account by delegating the trust of their private keys to a secure MetaMask wallet.
 
 # How to use:
 1. Install [MetaMask](https://metamask.io).
@@ -52,4 +52,4 @@ I am not responsible for any loss from transactions derived by MultiSender.  Som
 
 Any ERC20 tokens you transfer to the Multisender will be sent out to the addresses that you provided.
 
-I encourage you to assess its security before using the Mutlisender Dapp.
+I encourage you to assess its security before using the MutliSender DAPP.
