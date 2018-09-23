@@ -16,7 +16,7 @@
 .
 
 # 如何使用:
-1. 安装 [Metamask](https://metamask.io).
+1. 安装 [MetaMask](https://metamask.io).
 2. 确保你有MetaMask账户并且有代币或ETH余额.
 3. 确保MetaMask连接到你想连接的测试环境.
 4. 确保MetaMask账户账户是解锁状态.
