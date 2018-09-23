@@ -15,7 +15,7 @@ Many people still do this manually, one transaction at a time. This process is t
 This Dapp allows a user to send thousands of token transfers in a very effecient way by batching them in groups of 0 - 245 token transfers per Ethereum transaction. This automation saves time by automatically generating transactions to MetaMask. Finally, this tool allows a user to maintain security of their account by delegating the trust of their private keys to a secure MetaMask wallet.
 
 # How to use:
-1. Install [Metamask](https://metamask.io).
+1. Install [MetaMask](https://metamask.io).
 2. Make sure you have an account in MetaMask which has a token balance.
 3. Make sure your MetaMask is pointed to the network that you would like to use.
 4. Make sure your MetaMask account is unlocked.
