@@ -13,6 +13,23 @@
 ## 需要我每次都做授信吗?
 其实是不需要的，如果您已经了解授信的含义, 我们的建议是您可以一次性给一个数量比较大的授信额度，这样您可以在以后的交易中不需要重复授信，可以省去不少的时间和手续费。
 
+## 为什么授信会失败?
+请检查您的代币合约代码是否包含如下代码, 如果是，请重置授信额度，然后重新授信新的数量即可.
+
+if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw
+```
+Proof of work:
+ function approve(address _spender, uint _value) {
+    // To change the approve amount you first have to reduce the addresses`
+    //  allowance to zero by calling `approve(_spender, 0)` if it is not
+    //  already 0 to mitigate the race condition described here:
+    //  https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+    if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw;
+    allowed[msg.sender][_spender] = _value;
+    Approval(msg.sender, _spender, _value);
+  }
+```
+
 ## 为什么我的代币列表不显示?
 您必须确保您已经安装好MetaMask(https://metamask.io) ,然后确保在MetaMask中解锁了正确的账户。
 
