@@ -50,6 +50,6 @@ Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4f
 # Disclaimer
 I am not responsible for any loss from transactions derived by MultiSender.  Some of the underlying JavaScript libraries and Ethereum tools that were used are under active development. The website and smart contract has been thoroughly tested, there is always the possibility something unexpected happens resulting in losses of Ethereum and/or tokens.
 
-Any ERC20 tokens you transfer to the Multisender will be sent out to the addresses that you provided.
+Any ERC20 tokens you transfer to the MultiSender will be sent out to the addresses that you provided.
 
 I encourage you to assess its security before using the MutliSender DAPP.
