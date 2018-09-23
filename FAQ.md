@@ -14,6 +14,23 @@ Because it's a safe way, you don't need to transfer tokens to our smart contract
 ## Do I need to do the approval option every time?
 No, you don't have to, in my suggestion, you can approve a large amount to smart contract in one time, that you can save some time and tx fees.
 
+## Why was the approval option failed?
+Please check if your contract has the following similar code, if so, Just click Reset Aproval Amount, and then, approve again:
+if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw
+```
+Proof of work:
+ function approve(address _spender, uint _value) {
+    // To change the approve amount you first have to reduce the addresses`
+    //  allowance to zero by calling `approve(_spender, 0)` if it is not
+    //  already 0 to mitigate the race condition described here:
+    //  https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729
+    if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw;
+    allowed[msg.sender][_spender] = _value;
+    Approval(msg.sender, _spender, _value);
+  }
+```
+
+
 ## Why is my token list not showing?
 You must make sure you have install MetaMask(https://metamask.io) and unlock the right account.
 
