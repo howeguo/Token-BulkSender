@@ -19,7 +19,6 @@ Please check if your contract has the following similar code, if so, Just click 
 
 if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw
 ```
-Proof of work:
  function approve(address _spender, uint _value) {
     // To change the approve amount you first have to reduce the addresses`
     //  allowance to zero by calling `approve(_spender, 0)` if it is not
