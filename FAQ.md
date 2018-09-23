@@ -15,7 +15,7 @@ Because it's a safe way, you don't need to transfer tokens to our smart contract
 No, you don't have to, in my suggestion, you can approve a large amount to smart contract in one time, that you can save some time and tx fees.
 
 ## Why was the approval option failed?
-Please check if your contract has the following similar code, if so, Just click Reset Aproval Amount, and then, approve again.
+Please check if your token smart contract has the following similar code, if so, Just click Reset Aproval Amount, and then, approve again.
 
 if ((_value != 0) && (allowed[msg.sender][_spender] != 0)) throw
 ```
