@@ -20,7 +20,7 @@
 2. 确保你有MetaMask账户并且有代币或ETH余额.
 3. 确保MetaMask连接到你想连接的测试环境.
 4. 确保MetaMask账户账户是解锁状态.
-5. 前往 http://multisender.phizhub.com?locate=zh
+5. 前往 https://multisender.phizhub.com?locate=zh
 6. 等待页面全部加载完成.
 7. 从下拉框中选择一个你想发送的代币.
 8. 上传包含地址和数量的EXCEL或CSV或TXT文件.
