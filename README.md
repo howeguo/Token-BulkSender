@@ -19,7 +19,7 @@ This DAPP allows a user to send thousands of token transfers in a very effecient
 2. Make sure you have an account in MetaMask which has a token balance.
 3. Make sure your MetaMask is pointed to the network that you would like to use.
 4. Make sure your MetaMask account is unlocked.
-5. Go to http://multisender.phizhub.com
+5. Go to https://multisender.phizhub.com
 6. Wait for the full page to load.
 7. Select a token from the dropdown that you would like to send.
 8. Provide either EXCEL or CSV or TXT file with addresses and values.
