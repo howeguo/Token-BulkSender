@@ -32,6 +32,22 @@
 
 你可以先通过ropsten网络来测试是不是跟你预想的一致.
 
+例子文件 EXCEL / CSV:
+
+| Address   |Amount |
+|----------|-------------|
+|0x7edbaa86b8d2757322342157d3a44ed0f583514e |12|
+|0x2f6321db2461f68676f42f396330a4dc4a8f49df |1123.126|
+|0x001dbj28905DEA1a67940093fFeaCeee58cA91nc |1.03|
+
+例子文件 TXT:
+```
+0x7edbaa86b8d2757322342157d3a44ed0f583514e,12
+0x2f6321db2461f68676f42f396330a4dc4a8f49df,1123.126
+0x001dbj28905DEA1a67940093fFeaCeee58cA91nc,1.03
+```
+
+
 ```
 Proof of work:
 https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6bc667659505e3a4de2
