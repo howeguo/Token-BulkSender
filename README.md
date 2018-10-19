@@ -35,9 +35,7 @@ Example EXCEL / CSV:
 Address|Amount
 ---|---
 0x7edbaa86b8d2757322342157d3a44ed0f583514e| 12
----|---
 0x2f6321db2461f68676f42f396330a4dc4a8f49df| 1123.45645
----|---
 0x00b5F428905DEA1a67940093fFeaCeee58cA91Ae| 1.049
 
 Example TXT:
