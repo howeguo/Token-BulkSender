@@ -46,6 +46,7 @@ Example TXT:
 0x001dbj28905DEA1a67940093fFeaCeee58cA91nc,1.03
 ```
 
+```
 Proof of work:
 https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6bc667659505e3a4de2
 ```
