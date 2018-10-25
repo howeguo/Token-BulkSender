@@ -1,7 +1,7 @@
  # 语言:
-[English](https://github.com/howeguo/Token-multisender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
+[English](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
 
-# Token MultiSender 问题列表
+# Token BulkSender 问题列表
 
 首先非常感激您对我们的产品兴趣，这里我们列了一些常见问题，希望对你们有帮助:
 
