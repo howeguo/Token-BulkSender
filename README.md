@@ -1,7 +1,7 @@
 # Language:
-[English](https://github.com/howeguo/Token-multisender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/README_%E4%B8%AD%E6%96%87.md)
+[English](https://github.com/howeguo/Token-BulkSender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/README_%E4%B8%AD%E6%96%87.md)
 
-# Token MultiSender
+# Token BulkSender
 This DAPP was used to send token or ETH to many addresses in one transaction, and that can help user to save tx fee
 
 # Demo
@@ -19,7 +19,7 @@ This DAPP allows a user to send thousands of token transfers in a very effecient
 2. Make sure you have an account in MetaMask which has a token balance.
 3. Make sure your MetaMask is pointed to the network that you would like to use.
 4. Make sure your MetaMask account is unlocked.
-5. Go to https://multisender.phizhub.com
+5. Go to https://bulksender.app
 6. Wait for the full page to load.
 7. Select a token from the dropdown that you would like to send.
 8. Provide either EXCEL or CSV or TXT file with addresses and values.
@@ -63,8 +63,8 @@ Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4f
 
 
 # Disclaimer
-I am not responsible for any loss from transactions derived by MultiSender.  Some of the underlying JavaScript libraries and Ethereum tools that were used are under active development. The website and smart contract has been thoroughly tested, there is always the possibility something unexpected happens resulting in losses of Ethereum and/or tokens.
+I am not responsible for any loss from transactions derived by BulkSender.  Some of the underlying JavaScript libraries and Ethereum tools that were used are under active development. The website and smart contract has been thoroughly tested, there is always the possibility something unexpected happens resulting in losses of Ethereum and/or tokens.
 
-Any ERC20 tokens you transfer to the MultiSender will be sent out to the addresses that you provided.
+Any ERC20 tokens you transfer to the BulkSender will be sent out to the addresses that you provided.
 
-I encourage you to assess its security before using the MutliSender DAPP.
+I encourage you to assess its security before using the BulkSender DAPP.
