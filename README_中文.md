@@ -1,5 +1,5 @@
 # 语言:
-[English](https://github.com/howeguo/Token-multisender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-multisender/blob/master/README_%E4%B8%AD%E6%96%87.md)
+[English](https://github.com/howeguo/Token-BulkSender/blob/master/README.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/README_%E4%B8%AD%E6%96%87.md)
 
 # Token MultiSender
 这个应用可用来批量发送以太币和ERC20的代币，通过在一个交易中实现批量发送，可以节省很多不必要的交易费。
@@ -20,7 +20,7 @@
 2. 确保你有MetaMask账户并且有代币或ETH余额.
 3. 确保MetaMask连接到你想连接的测试环境.
 4. 确保MetaMask账户账户是解锁状态.
-5. 前往 https://multisender.phizhub.com?locate=zh
+5. 前往 https://bulksender.app?locate=zh
 6. 等待页面全部加载完成.
 7. 从下拉框中选择一个你想发送的代币.
 8. 上传包含地址和数量的EXCEL或CSV或TXT文件.
@@ -66,8 +66,8 @@ Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4f
 
 # 声明
 我不能保证任何交易的丢失
-对于MultiSender产生的交易造成的任何损失，我概不负责. 该网站和智能合约已经过全面测试，总有可能发生意外情况，导致以太坊和/或令牌丢失。
+对于BulkSender产生的交易造成的任何损失，我概不负责. 该网站和智能合约已经过全面测试，总有可能发生意外情况，导致以太坊和/或令牌丢失。
 
-您转移到MultiSender的任何ERC20代币都将发送到您提供的地址。
+您转移到BulkSender的任何ERC20代币都将发送到您提供的地址。
 
-我鼓励您在使用MutliSender应用之前评估其安全性。
+我鼓励您在使用BulkSender应用之前评估其安全性。
