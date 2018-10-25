@@ -1,7 +1,7 @@
 # Language:
 [English](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ.md)  | [中文](https://github.com/howeguo/Token-BulkSender/blob/master/FAQ_%E4%B8%AD%E6%96%87.md)
 
-# Token MultiSender FAQ
+# Token BulkSender FAQ
 
 Here, I am very grateful to you for your interest in our DAPP. Here are some common questions that I hope will help you:
 
