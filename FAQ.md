@@ -8,7 +8,7 @@ Here, I am very grateful to you for your interest in our DAPP. Here are some com
 # FAQ's
 
 ## Why do I need to do the approval option?
-Because it's a safe way, you don't need to transfer tokens to our smart contract directly, and the approval option just grant permission for smart contract to spend up some amount, it's only avalible when you actually send a token transfer by our contract, so you don't worry about it, just do it.
+Because it's a safe way, you don't need to transfer tokens to our smart contract directly, and the approval option just grant permission for smart contract to spend up some amount, it's only available when you actually send a token transfer by our contract, so you don't worry about it, just do it.
 [About ERC20 Token Standard#Approve](https://theethereum.wiki/w/index.php/ERC20_Token_Standard#Approve_And_TransferFrom_Token_Balance)
 
 ## Do I need to do the approval option every time?
