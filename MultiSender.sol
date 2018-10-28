@@ -2,7 +2,7 @@ pragma solidity ^ 0.4.0;
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 library SafeMath {
@@ -42,7 +42,7 @@ library SafeMath {
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 contract ERC20Basic {
@@ -61,7 +61,7 @@ contract ERC20 is ERC20Basic {
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 contract BasicToken is ERC20Basic {
@@ -84,7 +84,7 @@ contract BasicToken is ERC20Basic {
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 contract StandardToken is BasicToken,
@@ -111,7 +111,7 @@ ERC20 {
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 contract Ownable {
@@ -134,7 +134,7 @@ contract Ownable {
 
 /**
  * @title Multi Sender, support ETH and ERC20 Tokens
- * @dev To Use this Dapp: http://multisender.phizhub.com
+ * @dev To Use this Dapp: https://bulksender.app
 */
 
 contract MultiSender is Ownable {
@@ -338,7 +338,7 @@ contract MultiSender is Ownable {
         Send ether with the different value by a implicit call method
     */
 
-    function mutiSendETHWithDifferentValue(address[] _to, uint[] _value) payable public {
+    function multiSendETHWithDifferentValue(address[] _to, uint[] _value) payable public {
         ethSendDifferentValue(_to, _value);
     }
 
@@ -346,7 +346,7 @@ contract MultiSender is Ownable {
         Send ether with the same value by a implicit call method
     */
 
-    function mutiSendETHWithSameValue(address[] _to, uint _value) payable public {
+    function multiSendETHWithSameValue(address[] _to, uint _value) payable public {
         ethSendSameValue(_to, _value);
     }
 
@@ -354,14 +354,14 @@ contract MultiSender is Ownable {
         Send coin with the same value by a implicit call method
     */
 
-    function mutiSendCoinWithSameValue(address _tokenAddress, address[] _to, uint _value) payable public {
+    function multiSendCoinWithSameValue(address _tokenAddress, address[] _to, uint _value) payable public {
         coinSendSameValue(_tokenAddress, _to, _value);
     }
 
     /*
         Send coin with the different value by a implicit call method, this method can save some fee.
     */
-    function mutiSendCoinWithDifferentValue(address _tokenAddress, address[] _to, uint[] _value) payable public {
+    function multiSendCoinWithDifferentValue(address _tokenAddress, address[] _to, uint[] _value) payable public {
         coinSendDifferentValue(_tokenAddress, _to, _value);
     }
 
