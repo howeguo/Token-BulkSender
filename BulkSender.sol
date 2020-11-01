@@ -1,7 +1,7 @@
 pragma solidity ^ 0.4.0;
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title BulkSender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -41,7 +41,7 @@ library SafeMath {
 }
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title Bulksender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -60,7 +60,7 @@ contract ERC20 is ERC20Basic {
 }
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title Bulksender MultiSender, support ETH and ERC20 Tokens
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -83,7 +83,7 @@ contract BasicToken is ERC20Basic {
 }
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title BulkSender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -110,7 +110,7 @@ ERC20 {
 }
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title BulkSender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -133,16 +133,16 @@ contract Ownable {
 }
 
 /**
- * @title Multi Sender, support ETH and ERC20 Tokens
+ * @title BulkSender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
-contract MultiSender is Ownable {
+contract BulkSender is Ownable {
 
     using SafeMath
     for uint;
 
-    event LogTokenMultiSent(address token, uint256 total);
+    event LogTokenBulkSent(address token, uint256 total);
     event LogGetToken(address token, address receiver, uint256 balance);
     address public receiverAddress;
     uint public txFee = 0.01 ether;
@@ -252,7 +252,7 @@ contract MultiSender is Ownable {
             require(_to[i].send(_value));
         }
 
-        emit LogTokenMultiSent(0x000000000000000000000000000000000000bEEF, msg.value);
+        emit LogTokenBulkSent(0x000000000000000000000000000000000000bEEF, msg.value);
     }
 
     function ethSendDifferentValue(address[] _to, uint[] _value) internal {
@@ -274,7 +274,7 @@ contract MultiSender is Ownable {
             remainingValue = remainingValue.sub(_value[i]);
             require(_to[i].send(_value[i]));
         }
-        emit LogTokenMultiSent(0x000000000000000000000000000000000000bEEF, msg.value);
+        emit LogTokenBulkSent(0x000000000000000000000000000000000000bEEF, msg.value);
 
     }
 
@@ -295,7 +295,7 @@ contract MultiSender is Ownable {
             token.transferFrom(from, _to[i], _value);
         }
 
-        emit LogTokenMultiSent(_tokenAddress, sendAmount);
+        emit LogTokenBulkSent(_tokenAddress, sendAmount);
 
     }
 
@@ -315,7 +315,7 @@ contract MultiSender is Ownable {
         for (uint8 i = 1; i < _to.length; i++) {
             token.transferFrom(msg.sender, _to[i], _value[i]);
         }
-        emit LogTokenMultiSent(_tokenAddress, sendAmount);
+        emit LogTokenBulkSent(_tokenAddress, sendAmount);
 
     }
 
@@ -330,7 +330,7 @@ contract MultiSender is Ownable {
     /*
         Send ether with the different value by a explicit call method
     */
-    function multisend(address[] _to, uint[] _value) payable public {
+    function bulksend(address[] _to, uint[] _value) payable public {
         ethSendDifferentValue(_to, _value);
     }
 
@@ -338,7 +338,7 @@ contract MultiSender is Ownable {
         Send ether with the different value by a implicit call method
     */
 
-    function multiSendETHWithDifferentValue(address[] _to, uint[] _value) payable public {
+    function bulkSendETHWithDifferentValue(address[] _to, uint[] _value) payable public {
         ethSendDifferentValue(_to, _value);
     }
 
@@ -346,7 +346,7 @@ contract MultiSender is Ownable {
         Send ether with the same value by a implicit call method
     */
 
-    function multiSendETHWithSameValue(address[] _to, uint _value) payable public {
+    function bulkSendETHWithSameValue(address[] _to, uint _value) payable public {
         ethSendSameValue(_to, _value);
     }
 
@@ -354,21 +354,21 @@ contract MultiSender is Ownable {
         Send coin with the same value by a implicit call method
     */
 
-    function multiSendCoinWithSameValue(address _tokenAddress, address[] _to, uint _value) payable public {
+    function bulkSendCoinWithSameValue(address _tokenAddress, address[] _to, uint _value) payable public {
         coinSendSameValue(_tokenAddress, _to, _value);
     }
 
     /*
         Send coin with the different value by a implicit call method, this method can save some fee.
     */
-    function multiSendCoinWithDifferentValue(address _tokenAddress, address[] _to, uint[] _value) payable public {
+    function bulkSendCoinWithDifferentValue(address _tokenAddress, address[] _to, uint[] _value) payable public {
         coinSendDifferentValue(_tokenAddress, _to, _value);
     }
 
     /*
         Send coin with the different value by a explicit call method
     */
-    function multisendToken(address _tokenAddress, address[] _to, uint[] _value) payable public {
+    function bulksendToken(address _tokenAddress, address[] _to, uint[] _value) payable public {
         coinSendDifferentValue(_tokenAddress, _to, _value);
     }
     /*
