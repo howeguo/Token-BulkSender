@@ -53,13 +53,17 @@ https://ropsten.etherscan.io/tx/0xd79502721c914f32d42c83d326c62ce635d2df3f012cd6
 
 # Contract deployed and Source Code
 Contracts deployed:  
-Mainnet, ropsten  
+Mainnet, ropsten, rinkeby
 Mainnet: 0x2f6321db2461f68676f42f396330a4dc4a8f49df  
-Ropsten: 0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b  
+Ropsten: 0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b
+Rinkeby: 0x458b14915e651243acf89c05859a22d5cff976a6
 
 Source Code:  
 Mainnet: https://etherscan.io/address/0x2f6321db2461f68676f42f396330a4dc4a8f49df#code  
 Ropsten: https://ropsten.etherscan.io/address/0xfe25a97b5e3257e6e7164ede813c3d4fbb1c2e3b#code 
+Rinkeby: https://rinkeby.etherscan.io/address/0x458b14915e651243acf89c05859a22d5cff976a6#code 
+
+
 
 
 # Disclaimer
