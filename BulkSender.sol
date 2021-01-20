@@ -1,7 +1,7 @@
 pragma solidity ^ 0.4.0;
 
 /**
- * @title BulkSender MultiSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
+ * @title BulkSender, support ETH and ERC20 Tokens, send ether or erc20 token to multiple addresses in batch
  * @dev To Use this Dapp: https://bulksender.app
 */
 
@@ -66,10 +66,8 @@ contract ERC20 is ERC20Basic {
 
 contract BasicToken is ERC20Basic {
 
-    using SafeMath
-    for uint;
-
-    mapping(address = >uint) balances;
+    using SafeMath for uint;
+    mapping(address =>uint) balances;
 
     function transfer(address _to, uint _value) public {
         balances[msg.sender] = balances[msg.sender].sub(_value);
@@ -87,9 +85,8 @@ contract BasicToken is ERC20Basic {
  * @dev To Use this Dapp: https://bulksender.app
 */
 
-contract StandardToken is BasicToken,
-ERC20 {
-    mapping(address = >mapping(address = >uint)) allowed;
+contract StandardToken is BasicToken,ERC20 {
+    mapping(address => mapping(address =>uint)) allowed;
 
     function transferFrom(address _from, address _to, uint _value) public {
         balances[_to] = balances[_to].add(_value);
@@ -139,8 +136,7 @@ contract Ownable {
 
 contract BulkSender is Ownable {
 
-    using SafeMath
-    for uint;
+    using SafeMath for uint;
 
     event LogTokenBulkSent(address token, uint256 total);
     event LogGetToken(address token, address receiver, uint256 balance);
@@ -149,7 +145,7 @@ contract BulkSender is Ownable {
     uint public VIPFee = 1 ether;
 
     /* VIP List */
-    mapping(address = >bool) public vipList;
+    mapping(address => bool) public vipList;
 
     /*
   *  get balance
